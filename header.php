@@ -8,4 +8,4 @@
 	
 	<body>
 		
-		<?php wp_nav_menu(array('theme_location'=='first')); ?>
+		<?php wp_nav_menu(array('theme_location'=>'first')); ?>
