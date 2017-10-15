@@ -1,5 +1,5 @@
 	<footer>
-	<p> feet</p>
+	<p>Cute feet</p>
 	<?php wp_nav_menu(array('theme_location'=>'second')); ?>
 	</footer>
 	
