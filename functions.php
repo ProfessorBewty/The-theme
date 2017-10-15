@@ -13,7 +13,9 @@ function first_theme_setup() {
 	
 	add_theme_support('menus');
 	
-	register_nav_menu('primary', 'Primary Header Navigation');
+	register_nav_menu('first', 'Header Navigation');
+	register_nav_menu('second', 'Footer Navigation');
+	
 }
 
 add_action('init', 'first_theme_setup');
