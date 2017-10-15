@@ -10,7 +10,10 @@ function first_script_enqueue() {
 add_action('wp_enqueue_scripts', 'first_script_enqueue');
 
 function first_theme_setup() {
+	
 	add_theme_support('menus');
+	
+	register_nav_menu('primary', 'Primary Header Navigation');
 }
 
 add_action('init', 'first_theme_setup');
