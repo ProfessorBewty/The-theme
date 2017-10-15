@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title> Practice </title>
+		<title>Practice</title>
 	</head>
 	
 	<body>
