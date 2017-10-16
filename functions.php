@@ -19,3 +19,6 @@ function first_theme_setup() {
 }
 
 add_action('init', 'first_theme_setup');
+
+add_theme_support('custom-background');
+
